@@ -1,4 +1,5 @@
 # Django Sample
+Made with https://github.com/vintasoftware/django-react-boilerplate
 
 ## Setup
 - On project root, do the following:
