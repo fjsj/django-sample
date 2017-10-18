@@ -40,8 +40,8 @@ Add high level dependecies to `requirements-to-freeze.txt` and `pip freeze > req
 ## Deploying
 - `git clone` this repo in production (or `scp` files to it)
 - Run `npm run build` to build static files with webpack
-- Look inside `settings/production.py` for all `config` calls to find the necessary environment variables. Add them to a `.env` file in production only.
-- Run with the project some wsgi server
+- Look inside `settings/production.py` for all `config` calls to find the necessary environment variables. Add them to a `.env` file in production only
+- Run the project with some wsgi server
 
 Copyright (c) 2017 Vinta Serviços e Soluções Tecnológicas Ltda.
 [MIT License](LICENSE.txt)
