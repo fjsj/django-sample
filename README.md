@@ -2,22 +2,13 @@
 Made with https://github.com/vintasoftware/django-react-boilerplate
 
 ## Setup
-- On project root, do the following:
-- Create a copy of ``django_sample/settings/local.py.example``:  
-  `cp django_sample/settings/local.py.example django_sample/settings/local.py`
-- Create a copy of ``.env.example``:  
-  `cp .env.example .env`
-- Create the migrations for `users` app (do this, then remove this line from the README):  
-  `python manage.py makemigrations`
-- Run the migrations:  
-  `python manage.py migrate`
-
-## Tools
-- Setup [editorconfig](http://editorconfig.org/), [prospector](https://prospector.landscape.io/en/master/) and [ESLint](http://eslint.org/) in the text editor you will use to develop.
-
-## Running the project
 - `pip install -r requirements.txt`
 - `npm install`
+- `cp django_sample/settings/local.py.example django_sample/settings/local.py`
+- `cp .env.example .env`
+- `python manage.py migrate`
+
+## Running the project
 - `npm run start`
 - `python manage.py runserver`
 
@@ -28,6 +19,9 @@ Will run django tests using `--keepdb` and `--parallel`. You may pass a path to 
 
 ## Adding new pypi libs
 Add high level dependecies to `requirements-to-freeze.txt` and `pip freeze > requirements.txt`. This is [A Better Pip Workflow](http://www.kennethreitz.org/essays/a-better-pip-workflow).
+
+## Tools
+- Setup [editorconfig](http://editorconfig.org/), [prospector](https://prospector.landscape.io/en/master/) and [ESLint](http://eslint.org/) in the text editor you will use to develop.
 
 ## Linting
 - Manually with `prospector` and `npm run lint` on project root.
