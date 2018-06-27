@@ -39,4 +39,3 @@ Add high level dependecies to `requirements-to-freeze.txt` and `pip freeze > req
 
 Copyright (c) 2017 Vinta Serviços e Soluções Tecnológicas Ltda.
 [MIT License](LICENSE.txt)
-
